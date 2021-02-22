@@ -1,2 +1,3 @@
 # Log Format
 # ZCZC WEEK# MINUTES LogCode Description
+ZCZC W00 20 Github related things
