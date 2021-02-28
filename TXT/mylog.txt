@@ -1,5 +1,6 @@
 # Log Format
 # ZCZC WEEK# MINUTES LogCode Description
+# LogCode: https://osp4diss.vlsm.org/ETC/logCodes.txt
 ZCZC W00 20 L03 Github related things
 ZCZC W00 10 L01 Writing favorite links in scele form
 ZCZC W00 30 L01 Responding to pop quizzes
@@ -14,3 +15,4 @@ ZCZC W00 10 L26 Watching tutorial regarding gpg and pass
 ZCZC W00 10 L05 Surf around the web about using systemctl to manage systemd services
 ZCZC W00 10 L08 Try basic terminal commands such as cat, head, less, touch, cd, etc.
 ZCZC W00 10 L08 Try terminal text base editor such as nano, and vim (even nvim)
+ZCZC W00 5 L06 Read about the difference about pacman and apt package manager
