@@ -1,3 +1,16 @@
 # Log Format
 # ZCZC WEEK# MINUTES LogCode Description
-ZCZC W00 20 Github related things
+ZCZC W00 20 L03 Github related things
+ZCZC W00 10 L01 Writing favorite links in scele form
+ZCZC W00 30 L01 Responding to pop quizzes
+ZCZC W00 20 L23 Register, read rules, and chats
+ZCZC W00 100 L02 Attended Zoom meeting
+ZCZC W00 10 L00 Register ssh key
+ZCZC W00 10 L25 Reconfigure suckless program such as dwm
+ZCZC W00 30 L06 Reading archwiki regarding pacman package installer
+ZCZC W00 30 L21 Regular maintance and updates of system
+ZCZC W00 10 L26 Watching tutorial regarding ssh
+ZCZC W00 10 L26 Watching tutorial regarding gpg and pass
+ZCZC W00 10 L05 Surf around the web about using systemctl to manage systemd services
+ZCZC W00 10 L08 Try basic terminal commands such as cat, head, less, touch, cd, etc.
+ZCZC W00 10 L08 Try terminal text base editor such as nano, and vim (even nvim)
