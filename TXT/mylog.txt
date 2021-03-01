@@ -13,6 +13,24 @@ ZCZC W00 30 L21 Regular maintance and updates of system
 ZCZC W00 10 L26 Watching tutorial regarding ssh
 ZCZC W00 10 L26 Watching tutorial regarding gpg and pass
 ZCZC W00 10 L05 Surf around the web about using systemctl to manage systemd services
-ZCZC W00 10 L08 Try basic terminal commands such as cat, head, less, touch, cd, etc.
+ZCZC W00 10 L08 Try basic terminal commands such as cat, head, less, touch, cd, etc
 ZCZC W00 10 L08 Try terminal text base editor such as nano, and vim (even nvim)
 ZCZC W00 5 L06 Read about the difference about pacman and apt package manager
+ZCZC W01 30 L11 Mengerjakan wo1.md mengenai top 10 links pada week 1
+ZCZC W01 10 L11 Membantu teman mengenai dasar-dasar menggunakan Vim
+ZCZC W01 20 L11 Membantu teman dalam penginstallan Debian di melalui VirtualBox
+ZCZC W01 20 L11 Mencoba menggunakan Head, Tail, Less, More
+ZCZC W01 20 L11 Mencoba menggunakan find, grep, sed, awk
+ZCZC W01 180 L11 Mencoba Vim dengan mengedit seluruh text based file menggunakan Vim
+ZCZC W01 10 L11 Mencoba menggunakan symbolic links di linux
+ZCZC W01 10 L11 Mengubah isi file .bashrc dan .profile dan mencobanya
+ZCZC W01 20 L11 Mencoba menggunakan shell zsh serta mengubah .zshrc
+ZCZC W01 10 L11 Mencoba mengubah file permission pada suatu file agar dapat diakses oleh user lain
+ZCZC W01 40 L11 Membuat, menghapus akun guest lain. Serta mencoba relasinya dengan permission dan root privilage
+ZCZC W01 20 L06 Reading archwiki about Users and groups
+ZCZC W01 10 L06 Reading the difference between sudo and su
+ZCZC W01 20 L06 Reading about permissions and chmod
+ZCZC W01 30 L06 Reading the usage of find, grep, sed, awk along with it's examples
+ZCZC W01 10 L06 Reading the usage of cat, less, more, tail, head along with it's examples
+ZCZC W01 10 L06 Reading about linux links
+ZCZC W01 36 L26 Watching Mastering the Vim Language by Chris Toomey
