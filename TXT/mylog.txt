@@ -34,3 +34,5 @@ ZCZC W01 30 L06 Reading the usage of find, grep, sed, awk along with it's exampl
 ZCZC W01 10 L06 Reading the usage of cat, less, more, tail, head along with it's examples
 ZCZC W01 10 L06 Reading about linux links
 ZCZC W01 36 L26 Watching Mastering the Vim Language by Chris Toomey
+ZCZC W01 40 L01 Pop Quiz
+ZCZC W01 30 L11 Try Bash Scripting
