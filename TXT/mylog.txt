@@ -39,3 +39,11 @@ ZCZC W01 40 L01 Pop Quiz
 ZCZC W01 30 L11 Try Bash Scripting
 ZCZC W02 90 L02 Attended Zoom meeting
 ZCZC W02 50 L11 Membantu teman untuk membuat konfigurasi serta menggunakan plugin untuk vim
+ZCZC W02 30 L12 Menggenerate GPG keys dan mencoba mengekspor public key ke bentuk .txt
+ZCZC W02 5 L12 Try myscript.sh from https://github.com/cbkadal/os211/ and successfully create SHA25SUM and SHA256SUM.asc
+ZCZC W02 45 L12 Deconstruct myscript.sh to understand what each line do
+ZCZC W02 30 L06 Read about GPG and sha256sum from man
+ZCZC W02 30 L05 Read about clear-signed, detached-signed, and other gpg related commands
+ZCZC W02 30 L08 Try pass, the standard unix password manager generate, and storing the passwords
+ZCZC W02 60 L00 Input passwords for multiple website and account as well as finding a script or way to access them with ease
+ZCZC W02 10 L01 Writing in solar form
