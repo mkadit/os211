@@ -37,3 +37,5 @@ ZCZC W01 10 L06 Reading about linux links
 ZCZC W01 36 L26 Watching Mastering the Vim Language by Chris Toomey
 ZCZC W01 40 L01 Pop Quiz
 ZCZC W01 30 L11 Try Bash Scripting
+ZCZC W02 90 L02 Attended Zoom meeting
+ZCZC W02 50 L11 Membantu teman untuk membuat konfigurasi serta menggunakan plugin untuk vim
