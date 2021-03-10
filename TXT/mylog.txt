@@ -40,6 +40,7 @@ ZCZC W01 30 L11 Try Bash Scripting
 ZCZC W02 90 L02 Attended Zoom meeting
 ZCZC W02 50 L11 Membantu teman untuk membuat konfigurasi serta menggunakan plugin untuk vim
 ZCZC W02 30 L12 Menggenerate GPG keys dan mencoba mengekspor public key ke bentuk .txt
+ZCZC W02 10 L12 Mengimpor publick key dari operatingsystems@vlsm.org
 ZCZC W02 5 L12 Try myscript.sh from https://github.com/cbkadal/os211/ and successfully create SHA25SUM and SHA256SUM.asc
 ZCZC W02 45 L12 Deconstruct myscript.sh to understand what each line do
 ZCZC W02 30 L06 Read about GPG and sha256sum from man
@@ -49,3 +50,9 @@ ZCZC W02 60 L00 Input passwords for multiple website and account as well as find
 ZCZC W02 10 L01 Writing in solar form
 ZCZC W02 30 L01 Pop Quiz
 ZCZC W02 10 L23 Belajar bersama
+ZCZC W02 10 L06 Reading about curl and wget
+ZCZC W02 10 L06 Reading about using && and || as an if statement.
+ZCZC W02 60 L12 Create myscript.sh that copy my vim settings to ~/.vimrc
+ZCZC W02 60 L12 Mengerjakan wo1.md mengenai top 10 links pada week 2
+ZCZC W02 60 L12 Menilai serta menentukan 3 orang untuk myrank.txt untuk week 1
+ZCZC W02 60 L12 Mencoba demo C program dari github SisteOperasi Week02
