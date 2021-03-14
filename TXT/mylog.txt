@@ -56,3 +56,5 @@ ZCZC W02 60 L12 Create myscript.sh that copy my vim settings to ~/.vimrc
 ZCZC W02 60 L12 Mengerjakan wo1.md mengenai top 10 links pada week 2
 ZCZC W02 60 L12 Menilai serta menentukan 3 orang untuk myrank.txt untuk week 1
 ZCZC W02 60 L12 Mencoba demo C program dari github SisteOperasi Week02
+ZCZC W02 180 L25 Change nvim configuration to use nvim-lsp and lua based configs
+
