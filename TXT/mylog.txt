@@ -17,7 +17,7 @@ ZCZC W00 10 L08 Try basic terminal commands such as cat, head, less, touch, cd, 
 ZCZC W00 10 L08 Try terminal text base editor such as nano, and vim (even nvim)
 ZCZC W00 5 L06 Read about the difference about pacman and apt package manager
 ZCZC W01 100 L02 Attended Zoom meeting
-ZCZC W01 30 L11 Mengerjakan wo1.md mengenai top 10 links pada week 1
+ZCZC W01 30 L11 Mengerjakan w01.md mengenai top 10 links pada week 1
 ZCZC W01 10 L11 Membantu teman mengenai dasar-dasar menggunakan Vim
 ZCZC W01 20 L11 Membantu teman dalam penginstallan Debian di melalui VirtualBox
 ZCZC W01 20 L11 Mencoba menggunakan Head, Tail, Less, More
@@ -53,8 +53,19 @@ ZCZC W02 10 L23 Belajar bersama
 ZCZC W02 10 L06 Reading about curl and wget
 ZCZC W02 10 L06 Reading about using && and || as an if statement.
 ZCZC W02 60 L12 Create myscript.sh that copy my vim settings to ~/.vimrc
-ZCZC W02 60 L12 Mengerjakan wo1.md mengenai top 10 links pada week 2
+ZCZC W02 60 L12 Mengerjakan w02.md mengenai top 10 links pada week 2
 ZCZC W02 60 L12 Menilai serta menentukan 3 orang untuk myrank.txt untuk week 1
 ZCZC W02 60 L12 Mencoba demo C program dari github SisteOperasi Week02
 ZCZC W02 180 L25 Change nvim configuration to use nvim-lsp and lua based configs
 ZCZC W02 30 L23 Belajar bersama
+ZCZC W03 90 L02 Attended Zoom meeting
+ZCZC W03 15 L11 Read OSC-10 chapter 13-15
+ZCZC W03 15 L14 Try Demos
+ZCZC W03 5 L13 Updated .bash_aliases
+ZCZC W03 15 L14 Update myrank.txt for week 02
+ZCZC W03 60 L15 Mengerjakan w03.md mengenai top 10 links pada week 3
+ZCZC W03 60 L17 Did assignment #7
+ZCZC W03 60 L18 Did assignment #8
+ZCZC W03 60 L19 Did assignment #9
+ZCZC W03 120 L08 Trying to create a script that automates the proocess for assignment 7-9
+ZCZC W03 15 L16 Updated mylog.txt

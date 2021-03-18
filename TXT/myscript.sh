@@ -1,173 +1,59 @@
 #!/bin/bash
+# Copyright (C) 2020-2021 Cicak Bin Kadal
+# https://www.youtube.com/watch?v=KAXK07ni9gU
 
-RC='
-"___  ___ _   __  ___      _ _ _
-"|  \/  || | / / / _ \    | (_) |
-"| .  . || |/ / / /_\ \ __| |_| |_
-"| |\/| ||    \ |  _  |/ _` | | __|
-"| |  | || |\  \| | | | (_| | | |_
-"\_|  |_/\_| \_/\_| |_/\__,_|_|\__|
+# This free document is distributed in the hope that it will be 
+# useful, but WITHOUT ANY WARRANTY; without even the implied 
+# warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
-" change leader key
-let g:mapleader=" "
+# REV04 Mon 15 Mar 19:27:52 WIB 2021
+# REV03 Sun 14 Mar 18:21:27 WIB 2021
+# REV02 Fri 12 Mar 13:40:58 WIB 2021
+# REV01 Tue 13 Oct 10:37:14 WIB 2020
+# START Mon 28 Sep 21:05:04 WIB 2020
 
-""""""""""""""""""""""""""""""""""""""""""""""
-" General Settings
-""""""""""""""""""""""""""""""""""""""""""""""
-syntax enable
-set nocompatible
-set t_ut=
-set ttyfast
-set lazyredraw
-set noerrorbells
-set visualbell
-set t_vb=
-set laststatus=2
-set nocursorline
-set nobackup
-set nowritebackup
-set cmdheight=2
-set updatetime=300
-set shortmess+=c
-set signcolumn=yes
-set encoding=utf-8
-set hidden
-set splitbelow splitright
+# ATTN:
+# You new to set "REC2" with your own Public-Key Identity!
+# Check it out with "gpg --list-key"
 
-" set defautl tabs to have 4 spaces
-set sw=4 ts=4 sts=4 expandtab smarttab autoindent
-" show the matching part of the pair for [] {} and ()
-set showmatch
-"set colorcolumn=80
+REC2="mkaditya00@gmail.com"
+REC1="operatingsystems@vlsm.org"
+FILES="my*.asc my*.txt my*.sh"
+SHA="SHA256SUM"
 
-" Set the minimal number of lines under the cursor
-set scrolloff=2
+[ -d $HOME/RESULT ] || mkdir -p $HOME/RESULT
+pushd $HOME/RESULT
+for II in W03 ; do
+    [ -d $II ] || continue
+    TARFILE=my$II.tar.bz2
+    TARFASC=$TARFILE.asc
+    rm -f $TARFILE $TARFASC
+    echo "tar cfj $TARFILE $II/"
+    tar cfj $TARFILE $II/
+    echo "gpg --armor --output $TARFASC --encrypt --recipient $REC1 --recipient $REC2 $TARFILE"
+    gpg --armor --output $TARFASC --encrypt --recipient $REC1 --recipient $REC2 $TARFILE
+done
+popd
 
-" Set so vim search (/ or ?) be case insensitive
-set ignorecase smartcase
+rm -f $HOME/RESULT/fakeDODOL
+for II in $HOME/RESULT/myW*.tar.bz2.asc $HOME/RESULT/fakeDODOL ; do
+   echo "Check and move $II..."
+   [ -f $II ] && mv -f $II .
+done
 
-" Set hybrd line number
-set number relativenumber
+echo "rm -f $SHA $SHA.asc"
+rm -f $SHA $SHA.asc
 
-" Enable autocomplete
-set wildmenu
-set wildmode=longest:full,full
+echo "sha256sum $FILES > $SHA"
+sha256sum $FILES > $SHA
 
-" Set new split below or right
-set splitbelow splitright
+echo "sha256sum -c $SHA"
+sha256sum -c $SHA
 
-" ignore autocomplete *.class files
-set wildignore=*.class
+echo "gpg -o $SHA.asc -a -sb $SHA"
+gpg -o $SHA.asc -a -sb $SHA
 
-" navigate with mouse
-set mouse=a
+echo "gpg --verify $SHA.asc $SHA"
+gpg --verify $SHA.asc $SHA
 
-" show special characters
-set list
-set listchars=tab:›\ ,nbsp:␣,trail:•,extends:»,precedes:«
-set fillchars+=vert:│
-
-" highlight all search matches
-set hlsearch
-set incsearch
-
-" Show tab bar
-set showtabline=2
-
-set noshowmode
-" tell vim where to put swap files
-set dir=~/.swapdir
-set directory^=$HOME/.vim/swap//
-set backupdir=/tmp//
-set directory=/tmp//
-set undodir=/tmp//
-" set spellfile=~/.config/nvim/spell/en.utf-8.add
-
-
-""""""""""""""""""""""""""""""""""""""""""""""
-" System Mapping
-""""""""""""""""""""""""""""""""""""""""""""""
-" change indent in visual mode
-vnoremap > >gv
-vnoremap < <gv
-
-" file binding
-" noremap <S-z><S-a> :wa<CR>
-" noremap <C-q> :q<CR>
-
-" split binding
-noremap <C-S-h> gT
-noremap <C-S-l> gt
-
-noremap <C-h> <C-w>h
-noremap <C-j> <C-w>j
-noremap <C-k> <C-w>k
-noremap <C-l> <C-w>l
-
-" resize splits with arrow keys
-noremap <C-A-Left>	:vertical:resize -1<CR>
-noremap <C-A-Down>	:resize +1<CR>
-noremap <C-A-Up>	:resize -1<CR>
-noremap <C-A-Right>	:vertical:resize +1<CR>
-
-" Close buffer
-nnoremap <Leader>bd :bd<CR>
-
-" reload vimrc
-nnoremap <Leader>rr :so $MYVIMRC<CR>
-" Load Config file
-nnoremap <Leader>re :e $MYVIMRC<CR>
-
-" hide search results
-map <Esc><Esc> :nohlsearch<CR>
-
-
-" Buffers and Tabs
-nnoremap <C-A-j> :bprevious<CR>
-nnoremap <C-A-k> :bnext<CR>
-nnoremap <C-n> :bprevious<CR>
-nnoremap <C-m> :bnext<CR>
-nnoremap <C-A-h> :tabprevious<CR>
-nnoremap <C-A-l> :tabnext<CR>
-
-""""""""""""""""""""""""""""""""""""""""""""""
-" Configs
-""""""""""""""""""""""""""""""""""""""""""""""
-
-augroup autoSaveFolds
-  autocmd!
-  autocmd BufWinLeave * silent! mkview
-  autocmd BufWinEnter * silent! loadview
-augroup END
-
-augroup goodbye_netrw
-  au!
-  autocmd VimEnter * silent! au! FileExplorer *
-augroup END
-
-inoremap <C-v> <ESC>"*p
-vnoremap <C-c> "+y
-vnoremap <C-d> "+d
-'
-
-VIMR="$HOME/.vimrc"
-MESSAGE="Finish writing vim settings in $VIMR, enjoy!"
-
-writeVIMRC() {
-cat <<EOF > $VIMR
-$RC
-EOF
-}
-
-query() {
-    echo -n "Do you wish to override? [y/N] "
-    read ANSWER
-        ( [ -z "$ANSWER" ] && echo "Answer something please" ) || 
-        ( [ "$ANSWER" == "y" ] && rm $VIMR && writeVIMRC && echo "Your vim settings has changed!" ) ||
-        (  [ "$ANSWER" == "n" ] && echo "Your vim settings stay the same!" ) ||
-        ( echo "Answer something legit please" )
-
-}
-echo "Creating mkadit minimal vimrc"
-( [ ! -f $VIMR ]  && writeVIMRC && echo $MESSAGE ) || (query)
 exit 0
