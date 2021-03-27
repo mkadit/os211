@@ -62,10 +62,24 @@ ZCZC W03 90 L02 Attended Zoom meeting
 ZCZC W03 15 L11 Read OSC-10 chapter 13-15
 ZCZC W03 15 L14 Try Demos
 ZCZC W03 5 L13 Updated .bash_aliases
-ZCZC W03 15 L14 Update myrank.txt for week 02
+ZCZC W03 15 L14 Update myrank.txt for week 03
 ZCZC W03 60 L15 Mengerjakan w03.md mengenai top 10 links pada week 3
 ZCZC W03 60 L17 Did assignment #7
 ZCZC W03 60 L18 Did assignment #8
 ZCZC W03 60 L19 Did assignment #9
 ZCZC W03 120 L08 Trying to create a script that automates the proocess for assignment 7-9
 ZCZC W03 15 L16 Updated mylog.txt
+ZCZC W04 100 L02 ZOOM related (Wednesday QnA Session)
+ZCZC W03 120 L13 Mengerjakan w03.md mengenai top 10 links pada week 3
+ZCZC W03  15 L11 Did assignment #1
+ZCZC W03  10 L12 Did assignment #2
+ZCZC W03  10 L15 Did assignment #5
+ZCZC W03  10 L15 Did assignment #6
+ZCZC W03  10 L15 Did assignment #7
+ZCZC W03  10 L15 Did assignment #8
+ZCZC W03  60 L05 Read about Openbox, the configurations and how it works
+ZCZC W03  60 L05 Using Openbox as a window manager
+ZCZC W03  60 L05 Using Openbox as a window manager
+ZCZC W03  120 L05 Configure neovim so that it can install lsp automatically as well as using snippets
+ZCZC W03  120 L05 Configure openbox to my specification
+ZCZC W03  10 L03 Updating my dotfiles

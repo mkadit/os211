@@ -16,14 +16,14 @@
 # You new to set "REC2" with your own Public-Key Identity!
 # Check it out with "gpg --list-key"
 
-REC2="mkaditya00@gmail.com"
+REC2="46E047B5392FEE7AC7C7EA31581AA3F0261E3B53"
 REC1="operatingsystems@vlsm.org"
 FILES="my*.asc my*.txt my*.sh"
 SHA="SHA256SUM"
 
 [ -d $HOME/RESULT ] || mkdir -p $HOME/RESULT
 pushd $HOME/RESULT
-for II in W03 ; do
+for II in W04 ; do
     [ -d $II ] || continue
     TARFILE=my$II.tar.bz2
     TARFASC=$TARFILE.asc
