@@ -83,3 +83,14 @@ ZCZC W03  60 L05 Using Openbox as a window manager
 ZCZC W03  120 L05 Configure neovim so that it can install lsp automatically as well as using snippets
 ZCZC W03  120 L05 Configure openbox to my specification
 ZCZC W03  10 L03 Updating my dotfiles
+ZCZC W05 70 L02 ZOOM related (Wednesday QnA Session)
+ZCZC W05 180 L21 VirtualBox: install virtualbox and it's extension, GNU/Linux, create it's guess account, etc
+ZCZC W05 20 L21 VirtualBox: Added W05 Tarball and do "How low can you go"
+ZCZC W05 80 L05 GSGS Related: Top 10 Links for week 3
+ZCZC W05 30 L21 VirtualBox: Added Top 10 Links
+ZCZC W05 360 L22 Youtube: Relearn the design patterns
+ZCZC W05 120 L22 Youtube: Watch Hololive
+ZCZC W05 120 L06 Reading Tour of Rust
+ZCZC W05 120 L06 Reading Tour of Go
+ZCZC W05 180 L08 Trying (and suffering) go
+ZCZC W05 180 L07 Tring the demos
