@@ -9,3 +9,4 @@ Operating System Website
 [W03](https://mkadit.github.io/os211/W03)
 [W04](https://mkadit.github.io/os211/W04)
 [W05](https://mkadit.github.io/os211/W05)
+[W06](https://mkadit.github.io/os211/W06)

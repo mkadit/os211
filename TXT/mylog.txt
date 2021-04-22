@@ -70,19 +70,19 @@ ZCZC W03 60 L19 Did assignment #9
 ZCZC W03 120 L08 Trying to create a script that automates the proocess for assignment 7-9
 ZCZC W03 15 L16 Updated mylog.txt
 ZCZC W04 100 L02 ZOOM related (Wednesday QnA Session)
-ZCZC W03 120 L13 Mengerjakan w03.md mengenai top 10 links pada week 3
-ZCZC W03  15 L11 Did assignment #1
-ZCZC W03  10 L12 Did assignment #2
-ZCZC W03  10 L15 Did assignment #5
-ZCZC W03  10 L15 Did assignment #6
-ZCZC W03  10 L15 Did assignment #7
-ZCZC W03  10 L15 Did assignment #8
-ZCZC W03  60 L05 Read about Openbox, the configurations and how it works
-ZCZC W03  60 L05 Using Openbox as a window manager
-ZCZC W03  60 L05 Using Openbox as a window manager
-ZCZC W03  120 L05 Configure neovim so that it can install lsp automatically as well as using snippets
-ZCZC W03  120 L05 Configure openbox to my specification
-ZCZC W03  10 L03 Updating my dotfiles
+ZCZC W04 120 L13 Mengerjakan w03.md mengenai top 10 links pada week 3
+ZCZC W04  15 L11 Did assignment #1
+ZCZC W04  10 L12 Did assignment #2
+ZCZC W04  10 L15 Did assignment #5
+ZCZC W04  10 L15 Did assignment #6
+ZCZC W04  10 L15 Did assignment #7
+ZCZC W04  10 L15 Did assignment #8
+ZCZC W04  60 L05 Read about Openbox, the configurations and how it works
+ZCZC W04  60 L05 Using Openbox as a window manager
+ZCZC W04  60 L05 Using Openbox as a window manager
+ZCZC W04  120 L05 Configure neovim so that it can install lsp automatically as well as using snippets
+ZCZC W04  120 L05 Configure openbox to my specification
+ZCZC W04  10 L03 Updating my dotfiles
 ZCZC W05 70 L02 ZOOM related (Wednesday QnA Session)
 ZCZC W05 180 L21 VirtualBox: install virtualbox and it's extension, GNU/Linux, create it's guess account, etc
 ZCZC W05 20 L21 VirtualBox: Added W05 Tarball and do "How low can you go"
@@ -94,3 +94,9 @@ ZCZC W05 120 L06 Reading Tour of Rust
 ZCZC W05 120 L06 Reading Tour of Go
 ZCZC W05 180 L08 Trying (and suffering) go
 ZCZC W05 180 L07 Tring the demos
+ZCZC W06 110 L02 Attended ZOOM meeting
+ZCZC W06 30 L12 Update myrank.txt
+ZCZC W06 60 L14 Done assignment #4
+ZCZC W06 10 L16 Make SHA256SUM and sign it as SHA256SUM.asc
+ZCZC W06 20 L10 Assignment (General): POPQUIZW06Q02 and Q03
+ZCZC W06 300 L13 Assignment 3: Create top 10 link for week 06
