@@ -100,3 +100,17 @@ ZCZC W06 60 L14 Done assignment #4
 ZCZC W06 10 L16 Make SHA256SUM and sign it as SHA256SUM.asc
 ZCZC W06 20 L10 Assignment (General): POPQUIZW06Q02 and Q03
 ZCZC W06 300 L13 Assignment 3: Create top 10 link for week 06
+ZCZC W07 110 L02 ZOOM related
+ZCZC W07  15 L11 Assignment 1: OSC10 chapter 06, 07, and 08
+ZCZC W07  15 L12 Assignment 2: add myrank for week 06
+ZCZC W07  400 L13 Assignment 3: Create top 10 link for week 07
+ZCZC W07  50 L15 Assignment 4: Did DOwnload, followed, and changed to tarbal
+ZCZC W07  10 L18 Assignment 5: Update Mylog.txt
+ZCZC W07 120 L21 Regular maintance and updates of system. As well as deleting obsolete programs
+ZCZC W07 40 L21 Learning more about cURL
+ZCZC W07 20 L21 Learning httpie
+ZCZC W05 120 L22 Youtube: Watch Hololive
+ZCZC W07 30 L06 Reading archwiki regarding postgresql
+ZCZC W07 60 L01 Pop Quiz (both tuesday and thursday)
+ZCZC W07 30 L06 Reading archwiki regarding systemd
+ZCZC W07 30 L06 Reading archwiki regarding mpd

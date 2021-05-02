@@ -23,7 +23,7 @@ SHA="SHA256SUM"
 
 [ -d $HOME/RESULT ] || mkdir -p $HOME/RESULT
 pushd $HOME/RESULT
-for II in W06 ; do
+for II in W07 ; do
     [ -d $II ] || continue
     TARFILE=my$II.tar.bz2
     TARFASC=$TARFILE.asc
