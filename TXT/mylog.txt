@@ -114,3 +114,9 @@ ZCZC W07 30 L06 Reading archwiki regarding postgresql
 ZCZC W07 60 L01 Pop Quiz (both tuesday and thursday)
 ZCZC W07 30 L06 Reading archwiki regarding systemd
 ZCZC W07 30 L06 Reading archwiki regarding mpd
+ZCZC W08 105 L02 ZOOM related
+ZCZC W08 120 L12 Assignment #2 : picking 3 best and top 10 link list
+ZCZC W08 240 L13 Assignment #3 : building linux from scratch chapter 1-4 + reports
+ZCZC W08 15 L15 Assignment #5 : Update my log
+ZCZC W08 120 L22 Youtube: Watch Hololive
+ZCZC W08 120 L21 Regular maintance and updates of system. As well as deleting obsolete programs
